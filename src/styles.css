@@ -2,21 +2,23 @@ body {
     font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
       "Segoe UI Symbol";
+      width: 90%;
+      margin: auto;
 }
 
 .header {
+    margin: 1rem auto;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    border: 1px solid red;
+    align-items:baseline;
+    border: 1px solid hsl(0, 0%, 85%);
+    border-radius: 1rem;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .header-title{
     margin: 0 2rem;
-}
-
-.header-nav {
-
 }
 
 .buttons{
@@ -34,4 +36,17 @@ body {
 
 .buttons:active {
     background-color: hsl(0, 0%, 85%);
+}
+
+.tasks-panel {
+    margin: 1rem auto;
+    width: 100%;
+    min-height: 10rem;
+    border: 1px solid hsl(0, 0%, 85%);
+    border-radius: 1rem;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tasks-container {
+    padding: 1rem;
 }
