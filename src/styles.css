@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.header-title{
+    margin: 0 2rem;
+}
+
+.header-nav {
+
+}
+
+.buttons{
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.buttons:hover {
+    background-color: hsl(0, 0%, 93%);
+}
+
+.buttons:active {
+    background-color: hsl(0, 0%, 85%);
+}
